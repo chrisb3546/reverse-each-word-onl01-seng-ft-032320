@@ -3,7 +3,7 @@ sentence1 = "Hello there, and how are you?"
 
 
 
-def reverse_test(sentence1)
+def reverse_each_word(sentence1)
   a= sentence1.split
   b = a.map do |word|
    word.reverse
@@ -11,4 +11,4 @@ def reverse_test(sentence1)
    b.join(" ")
 end
 
-reverse_test(sentence1)
+reverse_each_word(sentence1)
