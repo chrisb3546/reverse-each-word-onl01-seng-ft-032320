@@ -5,10 +5,10 @@ sentence1 = "Hello there, and how are you?"
 
 def reverse_test(sentence1)
   a= sentence1.split
-   a.map do |sentence1|
-   sentence1.reverse
-  end
-  
+  b = a.map do |word|
+   word.reverse
+   end
+   b.join(" ")
 end
 
 reverse_test(sentence1)
